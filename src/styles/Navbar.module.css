@@ -1,0 +1,77 @@
+/* Navbar.module.css */
+
+/* General Navbar styling */
+.navbar {
+    background-color: #2563eb; /* Blue background */
+    color: #ffffff; /* White text */
+    padding: 16px; /* Add padding */
+    display: flex;
+    justify-content: space-between; /* Space between left and right sections */
+    align-items: center; /* Align items vertically */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  /* Navbar brand (left side) */
+  .navbarBrand {
+    font-size: 1.25rem; /* Larger font size */
+    font-weight: 700; /* Bold font */
+  }
+  
+  /* Navbar links (middle section) */
+  .navbarLinks {
+    display: flex;
+    gap: 32px; /* Space between links */
+  }
+  
+  .navbarLinks a {
+    color: #ffffff; /* White link color */
+    text-decoration: none; /* Remove underline */
+    font-size: 1rem; /* Standard font size */
+    font-weight: 500; /* Medium weight */
+    padding: 0 12px; /* Add internal spacing around each link */
+    transition: color 0.2s ease-in-out; /* Smooth hover effect */
+  }
+  
+  .navbarLinks a:hover {
+    color: #cbd5e1; /* Light gray color on hover */
+  }
+  
+  /* Navbar button (right side) */
+  .navbarButton {
+    background-color: #ffffff; /* White background */
+    color: #2563eb; /* Blue text */
+    padding: 8px 16px; /* Add padding inside the button */
+    border: none; /* Remove border */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 1rem; /* Standard font size */
+    font-weight: 500; /* Medium weight */
+    cursor: pointer; /* Pointer cursor */
+    transition: all 0.3s ease-in-out; /* Smooth hover effect */
+  }
+  
+  .navbarButton:hover {
+    background-color: #cbd5e1; /* Light gray background on hover */
+    color: #1e3a8a; /* Darker blue text on hover */
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-wrap: wrap; /* Allow wrapping for smaller screens */
+      padding: 12px; /* Adjust padding */
+    }
+  
+    .navbarLinks {
+      flex-wrap: wrap; /* Wrap links to the next line */
+      gap: 16px; /* Reduce spacing between links */
+      justify-content: center; /* Center links */
+      margin-top: 12px; /* Add spacing above links */
+    }
+  
+    .navbarButton {
+      margin-top: 12px; /* Add spacing above the button */
+      width: 100%; /* Make button full-width */
+      text-align: center; /* Center text */
+    }
+  }
+  

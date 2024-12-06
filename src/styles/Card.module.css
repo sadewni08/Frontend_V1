@@ -1,0 +1,17 @@
+
+  
+  /* Description styling */
+  .cardDescription {
+    font-size: 1rem; /* Regular font size for description */
+    color: #666666; /* Lighter text color for description */
+    margin-top: 8px; /* Space between title and description */
+  }
+  
+  /* Styling for the individual image descriptions */
+  .cardImageDescription {
+    font-size: 0.875rem; /* Smaller text size for descriptions under each image */
+    color: #444444; /* Darker text for clarity */
+    margin-top: 8px; /* Space between image and description */
+    text-align: center; /* Center-align description */
+  }
+  
